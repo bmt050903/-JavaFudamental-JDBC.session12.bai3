@@ -57,13 +57,7 @@ public class Main {
         }
 
         for (int i = 0; i < index; i++) {
-
-            System.out.println("ID: " + drinks[i].getId());
-            System.out.println("Tên: " + drinks[i].getName());
-            System.out.println("Giá: " + drinks[i].getPrice());
-            System.out.print("Cách pha chế: ");
-            drinks[i].prepare();
-
+            drinks[i].displayInfo();
             System.out.println("-----------");
         }
     }

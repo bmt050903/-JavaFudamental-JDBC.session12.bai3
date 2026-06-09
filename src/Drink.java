@@ -41,5 +41,13 @@ public abstract class Drink implements IPromotion {
         this.price = price;
     }
 
+    public void displayInfo() {
+        System.out.println("ID: " + id);
+        System.out.println("Tên: " + name);
+        System.out.println("Giá: " + price);
+
+        System.out.print("Cách pha chế: ");
+        prepare();
+    }
 
 }
